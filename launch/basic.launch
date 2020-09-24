@@ -1,0 +1,8 @@
+<launch>
+    <node pkg = "basic" type = "drive.py" name = "surveillance_robot"
+    />
+    <node pkg = "teleop_twist_keyboard" type = "teleop_twist_keyboard.py" name = "keyboard_control"
+    />
+    <node pkg = "usb_cam" type = "usb_cam_node" name = "video"
+    />
+</launch>
